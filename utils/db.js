@@ -4,11 +4,11 @@ import Collection from 'mongodb/lib/collection';
 import envLoader from './env_loader';
 
 /**
- * Represents a MongoDB client.
+ * a MongoDB client.
  */
 class DBClient {
   /**
-   * Creates a new DBClient instance.
+   * a new DBClient instance.
    */
   constructor() {
     envLoader();
