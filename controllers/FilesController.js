@@ -30,7 +30,7 @@ const fileQueue = new Queue('thumbnail generation');
 const NULL_ID = Buffer.alloc(24, '0').toString('utf-8');
 const isValidId = (id) => {
   const size = 24;
-  let i = 0;
+  let x = 0;
   const charRanges = [
     [48, 57], // 0 - 9
     [97, 102], // a - f
